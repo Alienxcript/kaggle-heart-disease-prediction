@@ -2,32 +2,31 @@
 
 ## Overview
 This project is based on the Kaggle Playground Series S6E2 competition.  
-The goal is to predict the probability of heart disease using tabular data.
+The objective is to predict the probability of heart disease using tabular data.
 
-The evaluation metric is ROC AUC, which measures how well the model ranks positive cases above negative ones.
+The competition evaluation metric is ROC AUC, which measures how well the model ranks positive cases above negative ones.
 
 ## Dataset
 - Synthetic tabular dataset provided by Kaggle
-- Train set contains features and target
-- Test set contains features only
+- Training set includes features and the target variable
+- Test set includes features only
 
 ## Approach
-- Data loading and inspection
-- Feature/target separation
-- Feature scaling using StandardScaler
-- Logistic Regression model
-- 5-fold cross-validation using ROC AUC
-- Probability-based predictions for Kaggle submission
+- Data loading and basic inspection  
+- Feature / target separation  
+- Feature scaling using StandardScaler  
+- Logistic Regression model  
+- Probability-based predictions for Kaggle submission  
 
 ## Results
-- Cross-validation ROC AUC: ~0.94  
-- Public leaderboard ROC AUC: 0.948
+- Public leaderboard ROC AUC: 0.94807
 
 ## Tools Used
-- Python
-- pandas, numpy
-- scikit-learn
-- Kaggle Notebooks
+- Python  
+- pandas, numpy  
+- scikit-learn  
+- Kaggle Notebooks  
 
 ## Notes
-This project focuses on building a simple, interpretable baseline model with strong performance on synthetic data.
+This project focuses on building a simple, interpretable baseline model with strong performance on a synthetic dataset.  
+Future improvements may include cross-validation, hyperparameter tuning, and model comparisons.
